@@ -1,0 +1,133 @@
+.fixed-registration-bar {
+  background-image: url('/sites/all/themes/agents_of_change/images/footer/footer-background-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0 23%;
+
+  .text-red {
+    color: @brand-red;
+  }
+
+  .fixed-content {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+
+    .text-muted {
+      background-color: @brand-darkblue;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .hashtag {
+      font-style: italic;
+      padding: 5px 0;
+      color: #fff;
+    }
+  }
+  .white-space {
+    height: 20px;
+    background-color: #fff;
+  }
+
+}
+
+// Insert your styling here.
+.footer {
+  text-align: center;
+  background-color: #ffffff;
+  border: 0;
+  color: @brand-danger;
+  padding-bottom: 160px;
+  margin-top: 0;
+  font-size: 18px;
+
+  @media (min-width: @screen-desktop) {
+      // padding-top: 120px;
+      padding-bottom: 20px;
+  }
+
+  p {
+    font-family: "ff-good-headline-web-pro-con","Helvetica Neue","Helvetica","sans-serif";
+    padding-top: 10px;
+    font-size: 12px;
+
+    &.social-icons{
+      text-align: center;
+    }
+    &.footer-links {
+      font-size: 20px;
+      padding-top: 0;
+    }
+  }
+
+  span a{
+    color: #000;
+    text-transform: uppercase;
+  }
+  .btn.contact {
+    z-index: 10;
+    position: relative;
+    top: -110px;
+    margin-bottom: -100px;
+  }
+  img {
+    width: (@font-size-base * 7.14 );
+  }
+  address {
+    float: left;
+  }
+  form {
+    margin-top: 15px;
+  }
+}
+
+.footer .fa {
+  color: @brand-darkblue;
+  font-size: 30px;
+  padding: 0 15px;
+}
+
+@media (min-width: @screen-tablet) {
+  .whiteslant {
+    background: url(/sites/all/themes/agents_of_change/images/white-slant.png) no-repeat bottom center scroll;
+    background-size: cover;
+    height: 108px;
+    position: relative;
+    top: 165px;
+    z-index: 5;
+  }
+  //.not-front {
+    .whiteslant {
+      top: 0px;
+    }
+    footer {
+      margin-top: 0;
+      padding-top: 100px;
+      .whiteslant {
+        top: 0px;
+        background-color: @intro-background;
+      }
+    }
+  //}
+}
+
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(300%);
+        opacity: .5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fixed-registration-bar {
+    animation: .7s ease-in 0s 1 slideInFromBottom;
+}
+.fixed-registration-bar .text-muted {
+    animation: .8s ease-in 0s 1 slideInFromBottom;
+}
+
+
+

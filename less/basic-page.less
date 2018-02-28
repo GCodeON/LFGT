@@ -1,0 +1,236 @@
+.white-bkg {
+  background-color: #fff;
+  padding-bottom: 35px;
+}
+.margin-30 {
+  margin: 30px 0;
+}
+.sponsors-page .body-text-container {
+  a {
+    color: @brand-danger;
+  }
+}
+.not-front.page-node {
+  h1 {
+    margin-top: 0;
+  }
+  .intro-text {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  
+  .committee-tab {
+    .nav>li {
+      display: inline-block;
+    }
+    .nav {
+      min-height: 100px;
+    }
+    margin-bottom: 50px;
+    .nav>li a {
+      font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 18px;
+      color: #fff;
+      padding: 5px;
+      background-color: @brand-danger;
+    }
+    .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+      background-color: #fff;
+      color: #003366;
+      //box-shadow: 0px 0px 10px 2px #888888;
+      //border: none;
+    }
+  }
+}
+
+.obj-text {
+    position: absolute;
+    bottom: 0;
+    background-color: @brand-danger;
+    //-webkit-transition: all 1s ease-in-out;
+    //-moz-transition: all 1s ease-in-out;
+   // -o-transition: all 1s ease-in-out;
+    //transition: all 1s ease-in-out;
+    width: 100%;
+    padding: 10px;
+}
+.square-img {
+  top: 80%;
+}
+.tall-img {
+  top: 90%;
+}
+
+.header {
+  text-align: center;
+  span.head {
+    font-size: 18px;
+    font-family: "proxima-nova",sans-serif;
+    color: @brand-darkblue;
+    font-weight: bold;
+  }
+}
+.body {
+  h2 {
+    text-transform: none;
+    font-size: 18px;
+    font-family: "proxima-nova",sans-serif;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: "proxima-nova",sans-serif;
+    color: #000;
+    padding: 3px 0;
+    text-align: center;
+  }
+  li {
+    font-size: 14px;
+    padding: 0;
+  }
+  ul {
+    margin-bottom: 0;
+  }
+}
+.social {
+  background-color: @brand-darkblue;
+  padding: 5px 10px;
+  a:hover, a:focus {
+    text-decoration: none;
+  }
+  a p{
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "proxima-nova",sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+  }
+}
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.tab-content {
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+    background-color: #fff;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid #ddd;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+body.page-user {
+  h1 {
+    color: #000;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  body.page-user .region-content {
+      width: 750px;
+      margin: 0 auto;
+      label {
+        color: #000;
+        font-size: 15px;
+      }
+  }
+  body.page-user {
+    #fixed {
+      display: none;
+    }
+  }
+}
+@media (min-width: 769px) {
+  .not-front.page-node .committee-tab .nav>li a  {
+    font-size: 30px;
+    padding: 15px 45px;
+  }
+}
+
+@media (min-width: 992px) {
+    .margin-top-30 {
+      margin-top: 30px;
+    }
+    .not-front.page-node {
+      .committee-tab {
+        .nav>li a {
+          font-size: 40px;
+          padding: 10px 45px;
+        }
+      }
+    }
+    .social {
+      background-color: @brand-danger;
+      padding: 5px 10px;
+      &:hover, &:focus {
+        background-color: @brand-darkblue;
+      }
+    }
+}
+
+@media screen and (max-width: 1025px) {
+  //.object {
+  //    width: 75%;
+  //    height: auto;
+  //    padding: 15px 0px;
+  //    margin: 0 auto;
+  //    .image img {
+  //      width: 100%;
+  //    }
+  //}
+  .obj-text {
+    position: relative;
+      bottom: 0%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .not-front.page-node {
+      .committee-tab {
+        .nav>li a {
+          font-size: 45px;
+          padding: 10px 75px;
+        }
+      }
+    }
+}
+@media screen and (max-width: 625px) {
+  .object {
+      width: 100%;
+      height: auto;
+      padding: 15px 0px;
+      margin: 0 auto;
+  }
+}
+.main-container {
+    padding-bottom: 0px;
+  }
+// @media (min-width: 992px) {
+//   .main-container {
+//     padding-bottom: 50px;
+//   }
+//   //.agenda-page .main-container {
+//   //  padding-bottom: 115px;
+//   //}
+//   //.agenda-page .main-container .white-bkg {
+//   //  padding-bottom: 0;
+//   //  margin-bottom: 30px;
+//   //}
+// }
+.p-policy, .terms-use {
+  color: #000;
+  padding-bottom: 150px;
+  a {
+    color: @brand-danger;
+  }
+}

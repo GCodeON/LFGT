@@ -1,0 +1,520 @@
+.abstracts-page .scrollbox {
+  display: none;
+}
+.abstracts-page .text-right a {
+  color: @brand-danger;
+  text-align: center;
+}
+.webform-layout-box.horiz > * + *, .webform-layout-box.horiz > *  {
+  margin-left: 0;
+  width:100%;
+}
+
+.abstracts-page {
+    .submission-ended {
+        font-size: 24px;
+        text-transform: capitalize;
+    }
+    .body-text-container {
+        background : white;
+        color      : black;
+    }
+    form {
+        padding-bottom: 50px;
+    }
+    .main-container {
+      padding-bottom: 0px;
+    }
+    .full-box {
+      background : white;
+      position: relative;
+      margin-top: 0; 
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-bottom: none;
+
+      @media (min-width: 768px) {
+        margin-top: -50px;
+        margin-bottom: none;
+        padding-top: 50px;
+      }
+
+      @media (min-width: 961px) {
+        margin-bottom: 200px;
+      }
+    }
+
+    .sub-page-header {
+      position: relative;
+      z-index: 2;
+    }
+
+    .download {
+      text-align: center;
+
+      @media(min-width: 1024px) {
+        text-align: right;
+      }
+    }
+}
+
+
+
+@media (min-width: 300px) {
+  .mobile-text {
+    display: none;
+  }
+  .abstracts-page .text-right a {
+    text-align: right;
+    font-size: 18px;
+  }
+  form#webform-client-form-18 {
+    display: block;
+  }
+  .padding-bottom-30 {
+    padding-bottom: 30px;
+  }
+  .abstracts-page {
+    .abstract-btn {
+      margin-top: -50px;
+    }
+    .webform-layout-box.horiz > * + * {
+      margin-left: 0;
+      width:100%;
+    }
+    .scrollbox {
+      display: block;
+      border: solid 1px #1fcfcb;
+      overflow-y: scroll;
+      color: #000;
+        background-color: white;
+      height: 650px;
+      padding: 30px;
+      margin-bottom: 100px;
+      p , li{
+        font-size: 18px;
+        font-family: "proxima-nova",sans-serif;
+      }
+    }
+    ::-webkit-scrollbar {
+      -webkit-appearance: none;
+      width: 15px;
+      background-color: fff;
+    }
+    ::-webkit-scrollbar-button {
+      height: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      border-radius: 0px;
+      background-color: #1fcfcb;
+      -webkit-box-shadow: 0 0 1px  rgba(255, 255, 255, .5);
+    }
+  }
+
+  .abstracts-submit-page {
+    .dark-blue-bkg {
+      margin: 0;
+      padding: 30px 0;
+      text-align: left;
+      text-transform: none;
+    }
+    .block:first-child h2.block-title {
+      display: none;
+    }
+    .node-type-webform h1 {
+      //text-align: left;
+    }
+    .border-top-bottom {
+      border-top: solid 1px #fff;
+      border-bottom: solid 1px #fff;
+      padding: 15px 0;
+      text-align: center;
+    }
+    .font-45 {
+      // font-size: 45px;
+      font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,Arial,sans-serif;
+      text-transform: uppercase;
+    }
+    .footer {
+      background-color: #fff;
+    }
+    .label {
+      font-weight: normal;
+      font-size: 22px;
+      color: #1fcfcb;
+      text-align: right; 
+    }
+    .form-control, .form-email {
+      width: 75%;
+      display: inline;
+      float: right;
+      height: 40px;
+      color: @brand-danger;
+    }
+    label {
+      font-weight: normal;
+      font-size: 22px;
+      color: #1fcfcb;
+      text-align: right;
+      //float: left; 
+    }
+    input#edit-submitted-another-author-2-1 {
+      display: none;
+    }
+    .form-type-radio.form-item-submitted-another-author-2.form-item.radio {
+      text-align: right;
+    }
+    .webform-component-textarea .grippie {
+      display: none;
+    }
+    .webform-component--abstract-text, .webform-component--optional, .webform-component--optional-link {
+      .form-textarea-wrapper {
+        display: inline-block;
+        width: 50%;
+        float: right;
+      }
+      .form-control {
+        width: 100%;
+        display: inline;
+        float: right;
+      }
+      .description {
+        display: block;
+        float: left;
+        width: 50%;
+      }
+    }
+    form {
+      .description {
+        font-size: 16px;
+      }
+    }
+    .webform-component--abstract-text, .webform-component--optional-link {
+      height: 165px;
+      .description {
+        font-size: 16px;
+        width: 25%;
+      }
+      .form-textarea-wrapper {
+        width: 75%;
+      }
+      .form-textarea {
+        height: 120px;
+      }
+    }
+    .webform-component--abstract-text {
+      height: 130px;
+    }
+    
+    .webform-component--optional-if-available {
+      label {
+        float: left;
+        width: 100%;
+        text-align: center;
+        padding-top: 30px;
+      }
+      input#edit-submitted-optional-if-available {
+        width: 100%;
+        float: left;
+      }
+    }
+    .webform-component--by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy {
+      float: left;
+      width: 100%;
+      div#edit-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy {
+        width: 58%;
+        margin: 0 auto;
+        display: block;
+      }
+      .form-type-radio.form-item-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy.form-item.radio {
+        float: left;
+      }
+      input#edit-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy-1 {
+        float: left;
+      }
+      label {
+        float: left;
+        &:first-child {
+          display: none;
+        }
+      }
+    }
+    .form-item.webform-component.webform-component-markup.webform-component--difficulty, .webform-component--accurate-info{
+      float: left;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 30px;
+    }
+    button.webform-submit.button-primary.btn.btn-primary.form-submit {
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 50px;
+    }
+    a {
+      color: @brand-danger;
+      font-weight: bold;
+    }
+  }
+  .padding-30-top.form-item.webform-component.webform-component-textarea.webform-component--abstract-text.webform-container-inline {
+    width: 100%;
+    float: left;
+  }
+
+  .webform-component--optional-if-available {
+    .form-textarea-wrapper, .form-textarea {
+      width: 100%;
+    }
+  }
+  .webform-component-file .btn-default {
+    background-color: @brand-danger;
+    color: #fff;
+    &:hover, &:focus {
+      background-color: #bb0935;
+    }
+  }
+  .padding-bottom-30.form-item.webform-component.webform-component-textfield.webform-component--1--name-title-description, 
+  .padding-bottom-30.form-item.webform-component.webform-component-textfield.webform-component--2--name-title-description, 
+  .padding-bottom-30.form-item.webform-component.webform-component-file.webform-component--optional-upload-2.webform-container-inline, 
+  .padding-bottom-30.form-item.webform-component.webform-component-file.webform-component--optional-upload.webform-container-inline {
+    width: 100%;
+  }
+  .padding-bottom-30.form-item.webform-component.webform-component-file.webform-component--optional-upload-2.webform-container-inline, 
+  .padding-bottom-30.form-item.webform-component.webform-component-file.webform-component--optional-upload.webform-container-inline {
+    label {
+      padding: 10px 0;
+      font-size: 22px;
+      width: 60%;
+    }
+  }
+
+
+  .page-node-done {
+    .main-container {
+      padding-bottom: unset;
+    }
+    .confirmation .success-box {
+      height: auto;
+      padding: 15px 0;
+      p {
+        font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 45px;
+        color: #fff;
+      }
+    }
+    .confirmation .white-bkg {
+      padding: 30px;
+      p {
+        font-family: "proxima-nova",sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: bold;
+        // font-size: 35px;
+        // line-height: 20px;
+        color: @brand-darkblue;
+        span {
+          color: @brand-success;
+        }
+        small {
+          font-size: 18px;
+          span {
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .body-text-container {
+      background-color: transparent;
+    }
+    .links {
+      margin-bottom: 100px;
+      padding-bottom: 100px;
+      background-color: white;
+      padding: 25px 30px;
+      a {
+        .btn;
+        background-color: @brand-danger;
+        color: white;
+      }
+      // padding: 0px 30px;
+    }
+  }
+  .abstracts-submit-page .webform-component--by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy label {
+    float: right;
+  }
+  .abstracts-submit-page .webform-component--by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy 
+  input#edit-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy-1 {
+    margin-top: 10px;
+  }
+  input {
+    text-align: left;
+  }
+  .abstracts-submit-page #fixed a {
+    color: #fff;
+    font-weight: normal;
+  }
+  .abstracts-submit-page .main-container {
+    padding-bottom: 65px;
+  }
+  .abstracts-submit-page .webform-component--by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy div#edit-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy {
+    width: 70%;
+  }
+  .padding-bottom-30.form-item.webform-component.webform-component-file.webform-component--optional-upload-2.webform-container-inline,
+  .padding-bottom-30.form-item.webform-component.webform-component-file.webform-component--optional-upload.webform-container-inline {
+    label {
+      width: 100%;
+      float: left;
+      text-align: left
+    }
+    .description {
+      display: none;
+    }
+    .form-control {
+      background-color: transparent;
+      border: none;
+      font-size: 20px;
+      width: 25%;
+      float: left;
+    }
+  }
+  button#edit-submitted-optional-upload-2-remove-button, button#edit-submitted-optional-upload-remove-button {
+    font-size: 14px;
+    text-transform: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    border: none;
+  }
+  button#edit-submitted-optional-upload-remove-button {
+    font-size: 14px;
+    text-transform: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "proxima-nova",sans-serif;
+    text-decoration: none;
+    border: none;
+  }
+  input#edit-submitted-optional-upload-2-upload, input#edit-submitted-optional-upload-upload {
+      width: 100%;
+      background-color: transparent;
+      border: none;
+      float: left;
+      font-size: 20px;
+      vertical-align: top;
+      padding: 13px 0 0;
+  }
+  .padding-bottom-30.form-item.webform-component.webform-component-textarea.webform-component--optional-if-available.webform-container-inline {
+    width: 100%;
+    //height: 90px;
+  }
+  .abstracts-submit-page .webform-component--optional-if-available label {
+      float: left;
+      width: 50%;
+      text-align: left;
+      padding-top: 0;
+  }
+  .webform-component-textarea .webform-component--optional-if-available .webform-container-inline .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea {
+    //width: 48%;
+    float: right;
+    padding-top: 10px;
+  }
+  .webform-container-inline div, .webform-container-inline div.form-item {
+    float: left;
+  }
+  .abstracts-submit-page .webform-component--by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy input#edit-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy-1 {
+    float: left;
+    display: inline;
+  }
+  .form-item.webform-component.webform-component-markup.webform-component--conflict-of-interest {
+    padding-top: unset;
+    height: 100px;
+    overflow: scroll;
+    width: 100%;
+    background-color: white;
+    //color: #000;
+    font-size: 18px;
+    //padding: 10px;
+    margin-bottom: 0px;
+      border: 1px solid black;
+    p {
+      margin: 0 0 5px;
+    }
+  }
+  .padding-bottom-30.form-item.webform-component.webform-component-textarea.webform-component--optional-link.webform-container-inline label {
+    float: left;
+  }
+  .padding-bottom-30.form-item.webform-component.webform-component-textarea.webform-component--optional-if-available.webform-container-inline
+  .form-textarea-wrapper.resizable.textarea-processed.resizable-textarea {
+    //width: 48%;
+    float: left;
+  }
+  .difficulty {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 28px;
+    p {
+      margin: 0;
+    }
+    a {
+      color: #ec0b43;
+    }
+  }
+}
+.form-item.webform-component.webform-component-markup.webform-component--words-left {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .abstracts-submit-page .webform-component--by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy div#edit-submitted-by-checking-this-box-you-are-agreeing-to-the-following-conflict-of-interest-policy {
+    width: 58%;
+  }
+}
+
+#edit-submitted-optional-upload-2-ajax-wrapper {
+    display: grid;
+}
+
+.webform-component-file {
+    display: flow-root;
+    display:grid;
+
+}
+.webform-component-textarea {
+    display: grid;
+    .webform-container-inline div {
+        display:inline;
+    }
+
+    .form-control.form-file {
+        width: 100%;
+        display:block;
+    }
+}
+
+.webform-component-checkboxes {
+    display: inline-block;
+}
+
+.webform-component-textarea .grippie {
+    display: none;
+}
+
+
+body.abstracts-page {
+  .submit {
+    margin-bottom: 100px;
+  }
+
+  .node-webform .webform-component {
+    background-color: #01a1dd;
+  }
+  .body-text-container p {
+    padding-bottom: unset;
+  }
+  .description {
+    font-size: 22px;
+  }
+}
+

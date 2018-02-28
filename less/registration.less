@@ -1,0 +1,146 @@
+.register-page {
+
+	p {
+		strong {
+			font-family: @font-family-standard;
+		}
+	}
+	.black-text {
+		color: #000;
+	}
+
+	.main-container {
+		padding-bottom: 0;
+	}
+
+	.body-text-container {
+		p:last-child {
+			padding-bottom: 0;
+		}
+	}
+
+	.general, .government, .student {
+		background-color: @brand-lightblue;
+		border-top: solid 1px @brand-darkblue;
+		border-bottom: solid 1px @brand-darkblue;
+		padding: 16px 0 0 0;
+    min-height: 107px;
+    a, button {
+      color: #fff;
+      border-top: solid 1px @brand-danger;
+      border-bottom: solid 1px @brand-danger;
+    }
+		p {
+			font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,Arial,sans-serif;
+	      text-transform: uppercase;
+	      text-align: center;
+	      color: @brand-darkblue;
+	      margin: 0;
+	      font-size: 50px;
+        line-height: 50px;
+      a {
+      	border-top: solid 1px @brand-danger;
+      	border-bottom: solid 1px @brand-danger;
+      	color: #fff;
+      	padding-bottom: 2px;
+      }
+		}
+		.small {
+			font-size: 22px;
+			line-height: 22px;
+			color: #fff;
+			padding: 0;
+		}
+	}
+	button.bio-button {
+	    background-color: transparent;
+	    border-left: none;
+      border-right: none;
+	}
+	.general-1, .government-2, .student-2 {
+		padding: 15px;
+		p {
+			font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,Arial,sans-serif;
+	      text-transform: uppercase;
+	      text-align: center;
+	      //color: #fff;
+	      font-size: 50px;
+	      line-height: 40px;
+	      margin: 0;
+	      letter-spacing: 2px;
+	      span {
+	      	color: #1fcfcb;
+	      }
+	      .small {
+	      	font-size: 20px;
+	      	line-height: 35px;
+	      	letter-spacing: 1px;
+	      }
+			}
+			.small { 
+	    	font-size: 20px;
+	      line-height: 35px;
+	      letter-spacing: 1px;
+	    }
+	}
+	.general-1  {
+		border: solid 1px @brand-lightblue;
+		border-bottom: none;
+	}
+	.government-2 {
+		border: solid 1px @brand-lightblue;
+	}
+	.student-2 {
+		border: solid 1px @brand-lightblue;
+		border-top: none;
+	}
+
+	.general {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+}
+p.reg-deadline{
+	font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,sans-serif;
+	font-size: 31px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px; 
+  //color: #fff;
+	color: #00a0e0;
+  span {
+  	//color: #00a0e0;
+	  color: @brand-darkblue;
+  }
+}
+.register-page p.btn.btn-lg.btn-danger {
+	margin-top: -90px;
+}
+.reg-info {
+	font-size: 18px;
+	font-family: "ff-good-headline-web-pro-con","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #000;
+	padding-bottom: 120px;
+	margin-top: 50px;
+	a, span {
+		color: @brand-danger;
+		font-weight: bold;
+	}
+}
+
+@media (min-width: 769px) {
+	.reg-info {
+		margin-bottom: 100px;
+	}
+}
+@media (min-width: 1200px) {
+	.register-page .general-1 .small, .register-page .government-2 .small, .register-page .student-2 .small {
+		font-size: 22px;
+      	line-height: 35px;
+      	letter-spacing: 2px;
+	}
+
+
+}

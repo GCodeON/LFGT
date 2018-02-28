@@ -1,0 +1,156 @@
+.sponsors-page {
+	.main-container {
+		padding-bottom: 0px; 
+	}
+	.full-box {
+		background : white;
+		position: relative;
+		margin-top: 0; 
+		padding-top: 25px;
+		padding-bottom: 50px;
+  
+		@media (min-width: 768px) {
+		  margin-top: -50px;
+		  padding-top: 50px;
+		}
+  
+		@media (min-width: 961px) {
+		  padding: 75px 25px;
+		  padding-bottom: 125px;
+		  margin-bottom: 50px;
+		}
+	  }
+	.home-text {
+		color: #000;
+	}
+	.emailContact {
+		@media (max-width: 425px) {
+			font-size: 13px;
+		}	
+	}
+	.sponsor-text {
+		color: #000;
+		padding-bottom: 150px;
+		.float-right {
+			float: right;
+		}
+		.or-text {
+			display: block;
+			text-align: center;
+		}
+		.co-sponsor {
+			padding-left: 20px;
+		}
+		.bordered {
+			padding: 0px 0px 8px;
+			border-style: solid;
+			border-width: 1px 0px;
+			border-color: #000 transparent;
+			text-align: center;
+		}
+		ul li {
+			color: #000;
+			font-size: 18px;
+			font-family: "proxima-nova",sans-serif;
+		}
+		ul.sponsors {
+		    list-style: none;
+		    padding:0 0 20px;
+		    margin:0;
+		    li { 
+			    padding-left: 1em; 
+			    text-indent: -.7em;
+			    padding-bottom: 5px;
+			}
+
+			li:before {
+			    content: "• ";
+			    color: #1fcfcb;
+			    padding-right: 20px;
+			}
+		}
+		.padding-top-45 {
+			padding-top: 0;
+		}
+		.panel-title {
+			font-size: 25px;
+			color: #fff;
+			text-align: center;
+			text-transform: uppercase;
+			.fa {
+				color: @brand-danger;
+				font-size: 20px;
+	    		vertical-align: top;
+	    		padding-top: 10px;
+			}
+		}
+		a:hover, a:focus {
+			text-decoration: none;
+		}
+		.panel-group .panel-heading {
+			background-color: @brand-lightblue;
+			border: none;
+		}
+		.header-red {
+			text-transform: uppercase;
+			color: @brand-danger;
+			font-weight: 600;
+			font-family: "proxima-nova",sans-serif;
+		}
+		.panel {
+			border: 0px solid transparent;
+		}
+		.panel-group {
+			font-family: "proxima-nova",sans-serif;
+			font-size: 18px;
+			.header {
+				font-weight: 600;
+				font-family: "proxima-nova",sans-serif;
+				text-align: left;
+			}
+		}
+		.panel-heading {
+			border-top-right-radius: 0;
+			border-top-left-radius: 0;
+		}
+		.contact {
+			font-family: "proxima-nova",sans-serif;
+			font-size: 18px;
+			text-align: center;
+			a {
+				color: @brand-danger;
+				&:hover, &:focus {
+					text-decoration: underline;
+				}
+			}
+		}
+		div#headingOne, div#headingTwo, div#headingThree, div#headingFour, div#headingFive {
+			background-color: @brand-lightblue;
+			span:before {
+				content: "-";
+				font-weight: bold;
+				color: @brand-danger;
+			}
+		}
+		a.collapsed div#headingOne, a.collapsed div#headingTwo, a.collapsed div#headingThree, a.collapsed div#headingFour, a.collapsed div#headingFive {
+			background-color: #1fcfcb;
+			span:before {
+				content: "+";
+				font-weight: bold;
+				color: @brand-danger;
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.sponsors-page .sponsor-text .padding-top-45 {
+		padding-top: 45px;
+	}
+	.sponsors-page .sponsor-text .panel-title {
+		font-size: 30px;
+	}
+	.sponsors-page .sponsor-text .or-text {
+		padding-left: 140px;
+		text-align: left;
+	}
+}

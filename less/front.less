@@ -1,0 +1,802 @@
+// Insert your styling here.
+
+  .slogan, #getting-started, h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+  }
+  .btn {
+    text-transform: uppercase;
+  }
+  .indent-container {
+    padding: 0px;
+  }
+  .indent-container-btm {
+    padding: 0px 0px;
+  }
+
+  .slogan-container {
+    background: rgba(236,11,67,1);
+    background: -moz-linear-gradient(left, rgba(236,11,67,1) 0%, rgba(236,11,67,1) 51%, rgba(31,207,204,1) 51%, rgba(31,207,203,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(236,11,67,1)), color-stop(51%, rgba(236,11,67,1)), color-stop(51%, rgba(31,207,204,1)), color-stop(100%, rgba(31,207,203,1)));
+    background: -webkit-linear-gradient(left, rgba(236,11,67,1) 0%, rgba(236,11,67,1) 51%, rgba(31,207,204,1) 51%, rgba(31,207,203,1) 100%);
+    background: -o-linear-gradient(left, rgba(236,11,67,1) 0%, rgba(236,11,67,1) 51%, rgba(31,207,204,1) 51%, rgba(31,207,203,1) 100%);
+    background: -ms-linear-gradient(left, rgba(236,11,67,1) 0%, rgba(236,11,67,1) 51%, rgba(31,207,204,1) 51%, rgba(31,207,203,1) 100%);
+    background: linear-gradient(to right, rgba(236,11,67,1) 0%, rgba(236,11,67,1) 51%, rgba(31,207,204,1) 51%, rgba(31,207,203,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec0b43', endColorstr='#1fcfcb', GradientType=1 );
+    .slogan, .date {
+      padding-left: 0;
+      padding-right: 0;
+      .break {
+        padding: 0;
+        white-space: nowrap;
+      }
+    }
+  }
+  .blue-row {
+    background-color: @brand-darkblue;
+  }
+  .blue-text {
+    color: @brand-info;
+  }
+  .red-text {
+    color: @brand-danger;
+  }
+
+  .slogan {
+    background-color: #ec0b43;
+    h2 {
+      font-size: (@font-size-base / 1.13 );//25px;
+      line-height: (@font-size-base * .92); //34px;
+      padding: 4px;
+      padding-left: 15px;
+      margin: 10px;
+      letter-spacing: 5px;
+      text-align: left;
+    }
+  }
+
+  .date {
+    background-color: @brand-darkblue;
+    padding: 4px 0;
+    span {
+      padding: 4px;
+      font-size: (@font-size-base * 1.14 ); //40px;
+      line-height: (@font-size-base * 1.14 ); //40px;
+      text-transform: uppercase;
+    }
+    strong {
+      font-size: (@font-size-base * 1.14 ); //40px;
+      color: @brand-info;
+      font-weight: 400;
+    }
+  }
+
+  .countdown-countainer {
+    padding-top: (@font-size-base * 4.2);
+    float:right;
+    position: relative;
+    bottom: -25px;
+    .btn {
+      font-size: (@font-size-base / 1.28 ); //25px;
+      float:right;
+      width: 29%;
+      margin-right: 17px;
+      padding-top: 3px;
+      span {
+        font-size: (@font-size-base / 1.50 ); //25px;
+      }
+    }
+  }
+
+  #getting-started{
+    padding: 0;
+    .intro {
+      display: inline-block;
+      background-color: #ff8a00;
+      padding: 5px 10px;
+      font-size: (@font-size-base / 1.28 ); //25px;
+      font-weight: 400;
+    }
+    table {
+      font-size: (@font-size-base / 1.28 ); //25px;
+      margin-bottom: 0;
+      border-collapse: separate;
+      border-spacing: 10px;
+      border: 10px solid transparent;
+      border-bottom: 0;
+      td{
+        width: 33%;
+      }
+    }
+    .countdownlocation td {
+      background-color: #ffffff;
+      color: #000000;
+      box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      padding: 20px 15px;
+      width: 33%;
+      span{
+        display: block;
+        text-align: center;
+        padding-bottom: 0px;
+        font-size: (@font-size-base * 2.42 ); //85px;
+      }
+    }
+
+    #day span{
+      color: @brand-red;
+    }
+    #hour span{
+      color: @brand-lightblue;
+    }
+    #minute span{
+      color: @brand-success;
+    }
+
+  }
+
+  .front {
+    .intro-text {
+      h3 {
+        letter-spacing: -25px;
+      }
+      p {
+        .make-sm-column-offset(1);
+        .make-sm-column(10);
+        font-size: (@font-size-base * .95); //35px;
+        strong {
+          -webkit-text-stroke: 0.1px #005d9d;
+        }
+      }
+    }
+      .videoWrapper {
+          box-shadow: 2px 2px 17px 2px rgba(0,0,0,0.38);
+      }
+
+  }
+  .intro-text {
+    background-color: @intro-background;
+    color: #ffffff;
+    h3 {
+      .make-md-column(11);
+      .make-lg-column(10);
+      text-transform: uppercase;
+      line-height: (@font-size-base * 2.45 ); //95px;
+      font-size: (@font-size-base * 1.71 ); //60px;
+      margin-top: 0;
+      pointer-events: none;
+      span {
+        margin-right: 3px;
+        padding: 0 5px;
+        padding-bottom: 3px;
+        white-space: nowrap;
+        letter-spacing: normal;
+      }
+      span:first-child{
+        padding-bottom: 0px;
+        display: block;
+        line-height: (@font-size-base * 2.35 );
+      }
+      span:nth-child(2){
+        background: @brand-danger;
+      }
+      span:nth-child(3){
+        background: @brand-lightblue;
+      }
+      span:nth-child(4){
+        background: @brand-purp;
+      }
+      span:nth-child(5){
+        background: @brand-darkblue;
+      }
+      span:nth-child(6){
+        background: @brand-success;
+      }
+      span:nth-child(8){
+        background: @brand-warning;
+      }
+    }
+    padding-bottom: 50px;
+
+  }
+
+
+  .signups-container {
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(236,11,67,1) 50%, rgba(236,11,67,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(255,255,255,1)), color-stop(50%, rgba(236,11,67,1)), color-stop(100%, rgba(236,11,67,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(236,11,67,1) 50%, rgba(236,11,67,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(236,11,67,1) 50%, rgba(236,11,67,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(236,11,67,1) 50%, rgba(236,11,67,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(236,11,67,1) 50%, rgba(236,11,67,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ec0b43', GradientType=1 );
+
+  }
+  .signups{
+    text-transform: uppercase;
+    color: #000000;
+    background: url(/sites/all/themes/agents_of_change/images/white-to-red.png) no-repeat top right scroll;
+    background-size: contain;
+    background-color: #ffffff;
+
+    h2 {
+      font-size: (@font-size-base * 2.42 ); //85px;
+      line-height: (@font-size-base * 2.2 );
+    }
+    strong {
+      color: @brand-danger;
+      font-weight: 400;
+    }
+    span{
+      display: block;
+    }
+    &:-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder {
+      font-size: (@font-size-base * 1.28 ); //45px;
+    }
+    .mailchimp-newsletter-mergefields {
+      width: 86%;
+    }
+
+    .btn {
+      text-transform: uppercase;
+      width: 86%;
+      margin-bottom: 50px;
+      background: @brand-red;
+      color: #ffffff;
+      &:hover {
+        background: darken(@brand-red, 10%);
+      }
+    }
+  }
+  .body-text-container {
+    background-color: @brand-darkblue;
+    margin-bottom: 0px;
+    position: relative;
+    .body-text {
+      margin-bottom: -110px;
+    }
+    p {
+      font-size: (@font-size-base * .85 ); //30px;
+    }
+    h4 {
+      font-size: (@font-size-base * 1.71 ); //60px;
+    }
+
+  }
+  .lt-body-text-container {
+    background-color: @brand-lightblue;
+    margin-bottom: 0px;
+    position: relative;
+    .body-text {
+      margin-bottom: -110px;
+    }
+    p {
+      font-size: (@font-size-base * .85 ); //30px;
+    }
+    h4 {
+      font-size: (@font-size-base * 1.71 ); //60px;
+    }
+
+  }
+  .blueslant {
+    background: url(/sites/all/themes/agents_of_change/images/blue-slant.png) no-repeat top center scroll;
+    height: 108px;
+
+    z-index: 5;
+
+    &.flipped {
+      &.flipped {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+      }
+    }
+  }
+  .light-blueslant {
+      background: url(/sites/all/themes/agents_of_change/images/light-blue-slant.png) no-repeat top center scroll;
+      height: 108px;
+
+      z-index: 5;
+    }
+  .hotel-text {
+    position: relative;
+    top: 230px;
+    margin-top: -150px;
+    font-size:  18px;
+    .description {
+      background-color: #ffffff;
+      padding:15px 20px;
+      color:#000000;
+      margin-bottom: 10px;
+      text-align: center;
+      display: table;
+      address {
+        margin-bottom: 0;
+      }
+      h2 {
+        font-size: (@font-size-base * .9);
+        margin: 0;
+        margin-top: 10px;
+        text-align: left;
+      }
+      p{
+        text-align: left;
+        margin-bottom: 0;
+      }
+    }
+    .btn {
+      font-size: (@font-size-base / 1.28 ); //25px;
+      padding-top: 3px;
+      margin-top: 10px;
+      float: left;
+      &:first-child {
+        margin-right: 4px;
+      }
+    }
+  }
+
+  .hotel, .map {
+    width: 50%;
+    float: left;
+    min-height: 500px;
+    margin-top: -150px;
+  }
+
+  .hotel {
+    background: url(/sites/all/themes/agents_of_change/images/sheraton-agents-of-change-hotel.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+  }
+
+  .map {
+    background: url(/sites/all/themes/agents_of_change/images/Agentsofchangemapsheratonsandiego.jpg) no-repeat bottom center scroll;
+    /*background-size: cover;*/
+    background-position: 50%;
+    a {
+      img {
+        z-index: 10;
+        position: relative;
+        width: 100%;
+        height: 380px;
+      }
+    }
+  }
+
+  .contact-container {
+    display: none;
+    input {
+      margin-bottom: 15px;
+    }
+    .btn {
+      text-transform: uppercase;
+      width: 100%;
+      margin-bottom: 50px;
+      border: 0;
+      &:hover {
+        background: darken(@brand-red, 10%);
+      }
+    }
+  }
+  .webform-submit {
+    background: @brand-red;
+    color: #ffffff;
+    &:hover {
+      background: darken(@brand-red, 10%);
+    }
+  }
+
+  .block-mailchimp-signup {
+    label{
+      display: none;
+    }
+    .mailchimp-newsletter-wrapper {
+      display: none;
+    }
+    button {
+      float: left;
+    }
+  }
+
+
+@media (max-width: @screen-lg-desktop) {
+  .slogan {
+    h2 {
+      letter-spacing: 2px;
+    }
+  }
+  .hotel-text {
+    margin-top: -155px;
+  }
+
+  .body-text-container .blueslant {
+    bottom: -88px;
+  }
+}
+
+@media (max-width: @screen-md) {
+  .hotel-text .description {
+    padding: 15px 10px;
+  }
+  .slogan{
+    h2 {
+      line-height: (@font-size-base * 1.16);
+    }
+  }
+}
+
+@media (max-width: @screen-tablet) {
+  .signups-container {
+    background-color: #ffffff;
+    background-image: none;
+  }
+  .slogan-container {
+    background: none;
+  }
+  .slogan {
+    padding: 7px 0;
+    h2 {
+      line-height: (@font-size-base * 1.2 );
+      font-size: (@font-size-base * .8 );
+      letter-spacing: 1px;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
+  .date {
+    padding: 0;
+    span {
+      width: 100%;
+      font-size: (@font-size-base * .9 );
+      line-height: (@font-size-base * 1.7);
+    }
+    strong {
+      font-size: (@font-size-base * 1.1 );
+    }
+  }
+  .countdown-countainer {
+    bottom: 0;
+    .btn {
+      width: 31%;
+    }
+  }
+  #getting-started {
+    .intro {
+      padding: 5px 15px;
+    }
+    table {
+    }
+    .countdownlocation td {
+      width: 33%;
+      span {
+        font-size: (@font-size-base * 1.7 ); //85px;
+      }
+    }
+  }
+
+  .intro-text h3 {
+    line-height: (@font-size-base * 1.9 ); //95px;
+    font-size: (@font-size-base * 1.3 ); //60px;
+    span {
+      &:first-child{
+        white-space: normal;
+        line-height: (@font-size-base * 1.5 ); //95px;
+      }
+    }
+  }
+
+  .signups {
+    background-image: none;
+    h2 {
+      font-size: (@font-size-base * 1.8);
+      line-height: (@font-size-base * 1.7 );
+    }
+    .mailchimp-newsletter-mergefields, .btn {
+      width: 100%;
+    }
+  }
+
+  .body-text-container {
+    .blueslant {
+      bottom: -70px;
+    }
+
+  }
+
+  .hotel-text {
+    margin-top: -120px;
+    top: 175px;
+    .description {
+      h2 {
+        font-size: (@font-size-base * .7);
+      }
+      p{
+        font-size: (@font-size-base * .5);
+      }
+    }
+  }
+
+  .hotel, .map {
+    width: 100%; float: none;
+  }
+  .hotel {
+    background: url(/sites/all/themes/agents_of_change/images/sheraton-agents-of-change-hotel-tablet.jpg) no-repeat bottom center scroll;
+  }
+  .map {
+    a {
+      img {
+        height: 450px;
+      }
+    }
+  }
+}
+
+@media (max-width: @screen-xs) {
+  .slogan {
+    h2 {
+      font-size: 18.5px;
+    }
+  }
+  .date {
+    padding: 0;
+    span {
+      font-size: 22px;
+    }
+    strong {
+      font-size: 22px;
+    }
+  }
+  .map {
+    background: url(/sites/all/themes/agents_of_change/images/mobile-sheraton-map.jpg) no-repeat bottom center scroll;
+    background-size: cover;
+  }
+}
+
+.webform-component-file{
+  .btn-default {
+    background-color: @brand-success;
+    &:hover {
+      background: darken(@brand-success, 10%);
+    }
+  }
+}
+
+.webform-component--we-have-a-few-seats-left {
+  margin-bottom: 0;
+}
+
+/*@media (min-width: @screen-lg-desktop) {
+  body.node-type-webform .node-webform {
+    .webform-layout-box {
+      .webform-component:nth-child(2) {
+        width: 29.47%;
+        padding: 20px 20px 20px 5px;
+      }
+    }
+  }
+}*/
+
+/*@media (min-width: @screen-md) {
+  body.node-type-webform .node-webform {
+    .webform-layout-box {
+      .webform-component:first-child {
+        width: 70%;
+        padding: 20px 5px 20px 20px;
+      }
+      .webform-component:nth-child(2) {
+        width: 29.47%;
+        padding: 20px 20px 20px 5px;
+      }
+    }
+    .webform-component--consider, .webform-component--second-consider, .webform-component--third-consider {
+      &.webform-layout-box {
+        .webform-component:first-child {
+            padding: 20px 5px 31px 20px;
+        }
+      }
+    }
+    .webform-layout-box:nth-last-child(1) {
+    }
+  }
+}*/
+
+/*@media (max-width: @screen-md) {
+  body.node-type-webform .node-webform {
+    .webform-layout-box {
+      .webform-component:first-child {
+        margin-bottom: 0;
+      }
+      .webform-component:nth-child(2) {
+        width: 100%;
+        margin-left: 0;
+      }
+    }
+    .webform-layout-box:nth-last-child(1) {
+    }
+  }
+}*/
+
+
+/*@media (min-width:  @screen-tablet) {
+  .alert.alert-block.alert-danger {
+    position: relative;
+    z-index: 10;
+    top: 1250px;
+  }
+}
+@media (max-width: @screen-lg-desktop) {
+  .alert.alert-block.alert-danger {
+    position: relative;
+    z-index: 10;
+    top: 1275px;
+  }
+}
+@media (max-width: @screen-md) {
+  .alert.alert-block.alert-danger {
+    top: 1400px;
+  }
+}
+@media (max-width: @screen-tablet) {
+  .alert.alert-block.alert-danger {
+    top: 1275px;
+  }
+}
+@media (max-width: @screen-xs) {
+  .alert.alert-block.alert-danger {
+    top: 1700px;
+  }
+}*/
+
+
+
+/* Aaron's unintegrated survey style edits */
+body.node-type-webform {
+  .table > thead > tr > th,
+  .table > tbody > tr > th,
+  .table > tfoot > tr > th,
+  .table > thead > tr > td,
+  .table > tbody > tr > td,
+  .table > tfoot > tr > td {
+    border-top: 1px solid #00497b;
+  }
+  .table > thead > tr > th {
+    border-bottom: 2px solid #00497b;
+  }
+  table.price-breakdown {
+    thead {
+      th {
+        background-color: #003f6a;
+        color: #ffffff;
+      }
+    }
+  }
+  .node-webform .webform-component {
+    padding: 40px 20px;
+    margin-bottom: 40px;
+    background-color: #00538c;
+    &.webform-component-markup {
+      //background-color: #00538c;
+        background-color: transparent;
+        color: black;
+
+      &.webform-component--we-would-like-showcase-your-place-on-the-committee, &.webform-component--keynotes-please-provide-any-recommended-speakers-name-and-title-for-the-following-categories {
+        padding: 20px 20px 0 20px;
+        margin-bottom: 0;
+      }
+    }
+    .webform-component--on-the-event-website-we-would-like-to-share-your-bio {
+      margin-bottom: 0;
+    }
+  }
+
+  .node-webform .webform-component.webform-component--pricing-breakdown {
+    background-color: #00538c;
+    padding: 20px;
+  }
+  label a.btn {
+    margin-left: 20px;
+  }
+  .form-control {
+    font-size: 19.4px;
+  }
+
+  .form-type-radio {
+    input.form-radio {
+      margin-top: 12px;
+      margin-left: -12px;
+    }
+    label {
+      width: 100%;
+      padding: 5px 12px;
+      margin-right: 40px;
+    }
+  }
+  .form-type-checkbox input.form-checkbox {
+    margin-top: 12px;
+    margin-left: -12px;
+  }
+  .btn-xs {
+    font-size: 18px;
+  }
+}
+
+/* Danica's Webform styles */
+.aoc-webform-feedback {
+  label {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 31.92px;
+    line-height: 31.92px;
+    background: #ed0644;
+    padding: 0 5px;
+    padding-bottom: 3px;
+    a {
+      padding-right: 5px;
+    }
+  }
+  .form-textarea-wrapper {
+    padding-top: 4px;
+  }
+  .aoc-webform-field {
+    background-color: #00538c;
+    border: 0px;
+    color: #fff;
+  }
+  .grippie {
+    display: none;
+  }
+}
+.webform-component--keynotes-please-provide-any-recommended-speakers-name-and-title-for-the-following-categories {
+  label {
+    font-weight: 400;
+    span {
+      background-color: #00a1e1;
+      padding: 0 5px;
+      text-transform: uppercase;
+      display: block;
+      font-size: 31.92px;
+      line-height: 31.92px;
+      margin-bottom: 5px;
+    }
+  }
+}
+body.node-type-webform .node-webform .webform-component {
+  margin-bottom: 10px;
+  padding: 20px 20px;
+  label {
+    font-weight: 400;
+  }
+  input {
+    color: #000;
+  }
+}
+.webform-component.webform-component--pricing-breakdown {
+  span {
+    text-transform: uppercase;
+    font-size: 31.92px;
+    line-height: 31.92px;
+    margin-bottom: 5px;    
+  }
+}
+.not-front th {
+  background-color: #00538c;
+  padding: 0 5px;
+  font-weight: 400;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .body-text-container {
+    z-index: 0;
+    padding-top: 30px;   
+  }
+  .indent-container {
+    padding: 0px 40px 100px;
+  }
+  .indent-container-btm {
+    padding: 0px 40px;
+  }
+}
+
+
+

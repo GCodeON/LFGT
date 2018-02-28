@@ -1,0 +1,43 @@
+.heading-line {
+  text-align:center;
+  border-bottom:3px solid @brand-success;
+  margin-bottom: 50px;
+  h1, h2, h3, h4, h5, h6 {
+    display:inline-block;
+    font-weight:400;
+    top:(@font-size-base * 1.50);
+    padding:0 12px;
+    position:relative;
+    background-color: @brand-darkblue;
+    text-transform: capitalize;
+    strong {
+      font-weight: 400;
+      color: @brand-success;
+    }
+
+  }
+}
+
+
+
+.nav-diagonal(@bg-color, @navbar-height: 40px ) {
+  background: @bg-color;
+  &:before {
+    border-top: @navbar-height solid @bg-color;
+  }
+  &:after {
+    border-bottom:  @navbar-height solid @bg-color;
+  }
+  &:hover {
+    background: darken(@bg-color, 10%);
+  }
+  &:hover:before {
+    border-top: @navbar-height solid darken(@bg-color, 10%);
+  }
+  &:hover:after {
+    border-bottom: @navbar-height solid darken(@bg-color, 10%);
+  }
+}
+
+
+

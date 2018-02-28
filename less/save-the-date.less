@@ -1,0 +1,254 @@
+.save-the-date {
+
+    font-family: "proxima-nova", sans-serif;
+
+    color: black;
+    p {
+        color: black;
+        text-align: center;
+        font-size: 16pt;
+    }
+
+    .main-container {
+        padding-bottom: 0;
+    }
+
+    .navbar-header {
+        p {
+            color: white;
+            margin-top: 25px;
+            font-size: 16px;
+        }
+
+        img {
+            margin-bottom: 25px;
+        }
+    }
+
+    .teal {
+        color: rgb(63, 193, 192);
+    }
+
+    .mobile-only {
+        display: none;
+    }
+
+    .very-small-screen-hide {
+        display: block;
+    }
+
+    .sub-page-header {
+
+        background: url("../images/blue-top-bar-stripes.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: auto;
+
+        .title-div {
+
+            margin-top: 20px;
+            text-align: center;
+
+            p {
+                color: white;
+                text-transform: uppercase;
+                font-family: "ff-good-headline-web-pro-con", sans-serif;
+                background-color: transparent;
+            }
+
+            .title {
+                color: red;
+                border-top: red 1px solid;
+                border-bottom: red 1px solid;
+                display: inline;
+            }
+
+            .date {
+                margin: 0px auto;
+                font-size: 38px;
+            }
+
+            .sub-title {
+                margin-top: 0;
+                font-weight: 400;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .videoWrapper {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        //padding-top: 25px;
+        height: 0;
+    }
+    .videoWrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-body {
+        background: white;
+        margin-top: 35px;
+        padding-top: 10px;
+
+        p {
+            font-size: 16px;
+            text-align: left;
+            padding-left: 10px;
+            line-height: 2;
+        }
+
+        span {
+            font-weight: bold;
+        }
+
+        .white-bkg {
+            padding-bottom: 5px;
+        }
+    }
+
+    a .btn.btn-signup {
+        font-family: "ff-good-headline-web-pro-con", sans-serif;
+        margin: 20px auto;
+        font-size: 20px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .page-bottom-bar {
+            background: url("../images/teal-bot-footer.png");
+
+        p {
+            font-family: "ff-good-headline-web-pro-con", sans-serif;
+            font-size: 34px;
+            padding-top: 60px;
+            margin-bottom: 8px;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .drk-blue {
+            color: darkblue;
+        }
+    }
+
+    .footer {
+        padding-top: 15px;
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .signup-form input::-webkit-input-placeholder,
+    .signup-form input::-moz-placeholder,
+    .signup-form input:-ms-input-placeholder,
+    .signup-form input:-moz-placeholder {
+        text-align: left;
+    }
+
+
+    .signup-form {
+
+        h3 {
+            margin-bottom: 10px;
+            color: #000;
+            padding-left: 10px;
+        }
+
+        p {
+            margin-bottom: 5px;
+            color: #000;
+            line-height: 1.5;
+        }
+
+        .small {
+            font-size: 10px;
+            margin-bottom: 20px;
+            line-height: 1;
+            margin-top: 5px;
+        }
+
+        button.btn-default {
+            padding: 10px 22px;
+        }
+
+        .form-control {
+            color: black;
+        }
+
+        .input-med {
+            width: 95%;
+        }
+
+        .input-group {
+            padding-left: 10px;
+        }
+
+        input {
+            text-align: left;
+            height: auto;
+            padding: 0px 9px !important;
+            border-radius: 0px !important;
+        }
+
+        #success_message {
+            .alert {
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+            }
+
+            .alert-success {
+                color: #3c763d;
+                background-color: #dff0d8;
+                border-color: #d6e9c6;
+            }
+        }
+    }
+
+    @media (max-width: 1199px) {
+        .mobile-only {
+            display: block;
+        }
+    }
+
+    @media (max-width: 995px) {
+
+        .sub-page-header {
+            background-image: url("../images/blue-top-bar-stripes-med.png");
+        }
+    }
+
+    @media (max-width: 600px) {
+        .sub-page-header {
+            background-image: url("../images/blue-top-bar-stripes-small.png");
+        }
+
+        .navbar-header {
+
+            p {
+                font-size: 12px;
+            }
+
+            img {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    @media (max-width: 455px) {
+        .very-small-screen-hide {
+            display: none;
+        }
+    }
+}

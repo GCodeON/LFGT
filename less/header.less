@@ -1,0 +1,392 @@
+.hdr-hashtag {
+	.danger-bkg;
+	position: absolute;
+	bottom: -31px;
+	right: 45px;
+	background-color: #101d61;
+	font-style: italic;
+	letter-spacing: 1px;
+	padding: 5px 12px;
+}
+
+.logo-container {
+	//padding-bottom: 30px;
+	box-shadow: none;
+	background-color: #fff;
+
+	img {
+		width: 210px !important;
+		height: auto;
+
+		@media (min-width: @screen-xs) {
+			width: 300px !important;
+		}
+	}
+}
+
+.navbar-header {
+
+	.navbar-collapse {
+		padding-right: 25px;
+
+		@media (min-width: 768px) {
+			padding-left: 10%;
+		}
+		@media (min-width: 992px) {
+			padding-left: 15px;
+		}
+	}
+	p {
+		color: white;
+		margin-top: 25px;
+		font-size: 20px;
+	}
+
+	.danger-bkg {
+		padding: 10px 25px;
+	}
+
+	img {
+		margin-bottom: 25px;
+	}
+
+	@media (max-width: 600px) {
+		.navbar-header {
+
+			p {
+				font-size: 12px;
+			}
+
+			img {
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 769px) {
+  .hdr-hashtag {
+    right: 50%;
+    margin-right: -36px;
+  }
+}
+
+.navbar-default {
+	.navbar-nav>li {
+		text-align: center;
+		line-height: 2px;
+
+		@media(min-width: 768px) {
+			text-align: left;
+		}
+	}
+	.navbar-nav>li>a {
+		font-size: 25px;
+		display: inline-block;
+	}
+	nav li + li:before {
+		content: '';
+
+		@media(min-width: 768px) {
+			content: ' / ';
+			color: @brand-red;
+			padding: 0 5px 0 0;
+		}
+	}
+	nav ul.dropdown-menu li+li:before {
+		content: '';
+		padding: 0;
+	}
+}
+
+.dropdown-menu {
+	min-width: 290px;
+	li {
+		a {
+			font-size: 30px;
+		}
+	}
+}
+
+.sub-page-header {
+	background-image: none;
+	background-position: left center;
+	background-repeat: no-repeat;
+	//height: 174px;
+	h1 {
+		font-size: 40px;
+		padding: 0;
+		color: #fff;
+	}
+
+	.page-title {
+		background-color: @brand-lightgreen;
+		text-align: center;
+		padding: 20px;
+	}
+	.header-text-container {
+
+		background-image: url('/sites/all/themes/agents_of_change/images/headers/subpageheader-right-sm.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+
+		p {
+			font-size: 20px;
+			font-family: @font-family-standard;
+			padding: 20px 9.2vw;
+			color: #fff;
+
+			&:last-child {
+				padding-bottom: 35px;
+
+				.committees-page & {
+					padding-bottom: 40px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 769px) {
+	.sub-page-header {
+		background-image: url('/sites/all/themes/agents_of_change/images/headers/subpageheader_bg-lg-xxl.png');
+		background-size: inherit;
+		background-position: center top;
+
+		.register-page & ,
+		.location-page &,
+		.pre-conference-workshops-page &,
+		.sponsors-page & {
+			background-color: #fff;
+		}
+
+		.row {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 152px;
+			//min-height: 0;
+		}
+
+		.page-title {
+			background-color: transparent;
+		}
+
+		h1 {
+			font-size: 60px;
+			line-height: 47px;
+			padding-bottom: 44px;
+
+			.committees-page & {
+				padding-bottom: 34px;
+			}
+			.pre-conference-workshops-page.not-front.page-node & {
+				font-size: 51px;
+				margin-top: -8px;
+			}
+			.agenda-page.not-front.page-node & {
+				margin-top: -8px;
+			}
+		}
+
+		.header-text-container {
+			background-image: none;
+			background-color: transparent;
+
+			p {
+				font-size: 15px;
+				padding: 0;
+				.register-page & {
+					padding: 0;
+				}
+				&:last-child {
+					.committees-page & {
+						padding-bottom: 20px;
+					}
+					.agenda-page & {
+						padding-bottom: 35px;
+					}
+					.register-page & {
+						padding-bottom: 20px;
+					}
+				}
+
+			}
+		}
+	}
+}
+
+#fixed {
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+    bottom: auto;
+}
+
+@media (max-width: 769px) {
+  .nav {
+    min-height: 0px;
+  }
+}
+
+
+
+
+// desktop and up
+@media (min-width: 992px) {
+
+	.sub-page-header {
+
+		.page-title {
+			background-color: transparent;
+			padding: 0;
+		}
+		h1 {
+			font-size: 65px;
+
+			.pre-conference-workshops-page.not-front.page-node & {
+				font-size: 61px;
+				line-height: 0.8;
+				margin-top: 9px;
+			}
+			.agenda-page.not-front.page-node & {
+				font-size: 72px;
+				line-height: 0.8;
+				padding-bottom: 40px;
+				margin-top: 0;
+				text-align: left;
+			}
+			.committees-page & {
+				padding-bottom: 43px;
+			}
+		}
+		.header-text-container {
+			background-image: none;
+			background-color: transparent;
+
+			p {
+				padding: 0;
+				padding-right: 5vw;
+				padding-top: 3vh;
+
+				&:last-child {
+					padding-bottom: 7vh;
+
+					.register-page &
+					{
+						padding-bottom: 50px;
+					}
+
+					.agenda-page & {
+						padding-top: 0;
+						padding-bottom: 20px;
+					}
+
+					.committees-page & {
+						padding-top: 0;
+						padding-bottom: 20px;
+						padding-right: 115px;
+					}
+				}
+
+				.register-page & {
+
+					padding: 0;
+					padding-top: 3vh;
+					padding-right: 5vw;
+
+					&:last-child {
+						padding-bottom: 4vh;
+					}
+
+				}
+				.past-talks-page & {
+					padding-right: 6vw;
+				}
+			}
+		}
+	}
+
+
+
+
+	.abstracts-page .home-text p a {
+		text-decoration: none;
+		&:hover &:focus {
+			text-decoration: underline;
+		}
+	}
+	#fixed {
+	  position: fixed;
+	  width: 100%;
+	  bottom: 0px;
+	  z-index: 1001;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	.sub-page-header {
+
+		h1 {
+			font-size: 80px;
+
+			.pre-conference-workshops-page & {
+				font-size: 70px;
+				line-height: 0.8;
+			}
+			.agenda-page & {
+				font-size: 65px;
+				line-height: 0.8;
+				padding-bottom: 28px;
+			}
+			.committees-page & {
+				padding-bottom: 51px;
+			}
+		}
+
+		.header-text-container {
+			p {
+				padding-right: 13vw;
+
+				&:last-child {
+					padding-bottom: 60px;
+
+					.register-page & {
+						padding-bottom: 35px;
+					}
+					.agenda-page & {
+						padding-top: 0;
+						padding-bottom: 20px;
+
+					}
+					.committees-page & {
+						padding-top: 0;
+						padding-bottom: 17px;
+					}
+				}
+
+
+				.agenda-page & {
+					padding-right: 115px;
+				}
+				.pre-conference-workshops-page & {
+					padding-right: 11vw;
+				}
+				.past-talks-page & {
+					padding-right: 200px;
+				}
+				.register-page & {
+					padding-top: 1vh;
+					padding-bottom: 2vh;
+					padding-right: 11vw;
+
+				}
+			}
+		}
+	}
+
+}
+

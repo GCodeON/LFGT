@@ -1,0 +1,102 @@
+.committees-page {
+
+  .speakers {
+    padding-bottom: 0px;
+
+    @media(min-width: 992px) {
+      padding-bottom: 80px;
+    }
+  }
+
+  .block-title {
+    display: none;
+  }
+
+  .tab-pane {
+    border: 1px solid #dcdada;
+  }
+
+  .hdr-hashtag { 
+    display: none;
+  }
+
+  .sub-page-header {
+      height: auto;
+      //max-height: 172px;
+    .col-sm-12 {
+      text-align: center;
+
+      h1 {
+        padding: 20px 30px;
+        display: inline-block;
+      }
+
+    }
+
+    @media (min-width: 768px) {
+      .col-sm-12 {
+        text-align: left;
+        h1 {
+          padding: 68px 30px;
+          display: block;
+        }
+      }
+    }
+  }
+
+  .committee-tab {
+    text-align: center;
+    ul {
+      padding: 0;
+      display: inline-block;
+      width: 100%;
+      font-size: 25px;
+      margin: 40px 0;
+
+      span {
+        color: @brand-red;
+      }
+
+      li {
+        display: inline;
+
+        &.active {
+          a {
+            background-color: #33cccc;
+            color: #fff;
+            padding: 0 5px 2px 5px;
+          }
+        }
+
+        &.seperator {
+          color: @brand-red;
+        }
+      }
+
+      @media (min-width: 768px) {
+       font-size: 25px;
+      }
+    }
+  }
+
+  .tab-content {
+    border: 0;
+  }
+
+  // Desktop
+  @media (min-width: 992px) {
+    .object {
+      height: 400px;
+    }
+  }
+
+  .nominate-committee {
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .main-container {
+    padding-bottom: 75px;
+  }
+
+}
