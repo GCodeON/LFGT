@@ -20,7 +20,7 @@
                                     </button>
                                 </div>
                                 <div class="col-sm-12 col-md-8 nav-col">
-                                    <p class="danger-bkg">The Science and Technology of Behavior Change</p>
+                                    <p class="danger-bkg">Global Leaders By Trade</p>
                                     <?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
                                         <div class="navbar-collapse collapse">
                                             <div>
@@ -42,7 +42,7 @@
         </div>
     </section>
 
-    <?php print render($title_suffix); ?>
+    <!-- <?php print render($title_suffix); ?>
     <section class="sub-page-header">
         <div class="container">
             <div class="row">
@@ -56,4 +56,4 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
