@@ -76,17 +76,11 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- HTML5 element support for IE6-8 -->
-  <!--[if lt IE 9]>
-  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
+
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <?php print $scripts; ?>
-    <!-- Enter Type Kit Here -->
-    <!-- <script src="//use.typekit.net/ytl5hzm.js"></script> --> 
-    <script>try{Typekit.load();}catch(e){}</script>
-    <!--Adam's Social Codes -->
-
+  
     <!-- Facebook Pixel Code -->
       <!-- <script>
       !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
