@@ -48,30 +48,30 @@
 <html lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces;?>>
 <head profile="<?php print $grddl_profile; ?>">
   <meta charset="utf-8">
-  <meta name="keywords" content="Agents of Change Summit, Conference, Public Health, Behavior Change, Technology Pathways"/>
+  <meta name="keywords" content="lfglobaltrade, Global Leaders By Trade"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Open Graph data -->
-    <meta property="og:title" content="The Science and Technology of Behavior Change" />
-    <meta property="og:site_name" content="Agents of Change Summit | February 12-13, 2018 | San Diego"/>
-    <meta property="og:url" content="http://agentsofchangesummit.com/" /> <!-- Update to final URL after migration -->
-    <meta property="og:description" content="The Agents of Change Summit unifies and expands the community of professionals using marketing and technology to change people’s health behaviors for social good. If you want to advance #BehaviorChange for #PublicHealth, don’t miss this event. Register today. #AOCS18" />
-    <meta property="fb:app_id" content="157682614577597" />
+    <meta property="og:title" content="Global Leaders By Trade" />
+    <meta property="og:site_name" content="lfglobaltrade | LFGT"/>
+    <meta property="og:url" content="http://lfglobaltrade.com/" /> <!-- Update to final URL after migration -->
+    <meta property="og:description" content="LFGT Description" />
+    <meta property="fb:app_id" content="" />
     <meta property="og:type" content="website" />
-    <meta property="og:image"  content="http://agentsofchangesummit.com/sites/all/themes/agents_of_change/images/1200x628.png" />
+    <meta property="og:image"  content="" />
 
     <!-- Twitter Card data! -->
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@AOCSummit">
-    <meta name="twitter:title" content="The Science and Technology of Behavior Change">
-    <meta name="twitter:description" content="The Agents of Change Summit unifies and expands the community of professionals using marketing and technology to change people’s health behaviors for social good. If you want to advance #BehaviorChange for #PublicHealth, don’t miss this event. Register today. #AOCS18">
-    <meta name="twitter:creator" content="@AOCSummit">
+    <meta name="twitter:site" content="@lfglobaltrade">
+    <meta name="twitter:title" content="Global Leaders By Trade">
+    <meta name="twitter:description" content="LFGT Description">
+    <meta name="twitter:creator" content="@lfglobaltrade">
     <!-- Twitter Summary card images must be at least 120x120px -->
-    <meta name="twitter:image" content="http://agentsofchangesummit.com/sites/all/themes/agents_of_change/images/1200x628.png">
+    <!-- <meta name="twitter:image" content="http://agentsofchangesummit.com/sites/all/themes/agents_of_change/images/1200x628.png"> -->
 
     <!-- Schema.org markup for Google+ -->
-    <meta itemprop="name" content="Agents of Change Summit | February 12-13, 2018 | San Diego">
-    <meta itemprop="description" content="The Agents of Change Summit unifies and expands the community of professionals using marketing and technology to change people’s health behaviors for social good. If you want to advance #BehaviorChange for #PublicHealth, don’t miss this event. Register today. #AOCS18">
-    <meta itemprop="image" content="http://aocsummit.org/sites/all/themes/agents_of_change/images/1200x628.png">
+    <meta itemprop="name" content="lfglobaltrade | LFGT">
+    <meta itemprop="description" content="LFGT Description">
+    <!-- <meta itemprop="image" content="http://aocsummit.org/sites/all/themes/agents_of_change/images/1200x628.png"> -->
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
@@ -82,12 +82,13 @@
   <![endif]-->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
   <?php print $scripts; ?>
-<!--    <script src="//use.typekit.net/xoe6nos.js"></script>-->
-    <script src="//use.typekit.net/ytl5hzm.js"></script>
+    <!-- Enter Type Kit Here -->
+    <!-- <script src="//use.typekit.net/ytl5hzm.js"></script> --> 
     <script>try{Typekit.load();}catch(e){}</script>
     <!--Adam's Social Codes -->
+
     <!-- Facebook Pixel Code -->
-      <script>
+      <!-- <script>
       !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
       n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
@@ -108,28 +109,17 @@
       </script>
       <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1655272954754605&ev=PageView&noscript=1"
-      /></noscript>
-
+      /></noscript> -->
 
     <!-- End Facebook Pixel Code -->
+
     <!-- Twitter Pixel Code -->
-    <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
-    <script type="text/javascript">twttr.conversion.trackPid('nttvc', { tw_sale_amount: 0, tw_order_quantity: 0 });</script>
-    <noscript>
-        <img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=nttvc&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-        <img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=nttvc&p_id=Twitter&tw_sale_amount=0&tw_order_quantity=0" />
-    </noscript>
+
     <!-- End Twitter Pixel Code -->
-    <script>
-     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-     ga('create', 'UA-342004-33', 'auto');
-     ga('send', 'pageview');
+    <!-- Google Analytics -->
 
-    </script>
+     <!--End Google Analytics -->
 </head>
 
 <?php
@@ -167,7 +157,7 @@ if (count($htmlpaths) === 1) {
   <?php print $page; ?>
   <?php print $page_bottom; ?>
 
-  <a href="https://plus.google.com/105511582714369828390" rel="publisher"></a>
+  <!-- <a href="https://plus.google.com/105511582714369828390" rel="publisher"></a> -->
 
   <?php
   /*
@@ -194,13 +184,6 @@ if (count($htmlpaths) === 1) {
 
   </style>
 
-  <?php
-  /*
-   * END ANDY G STUFF
-   */
-  ?>
-
-
   <script>
 (function($) {
   $(document).ready(function() {
@@ -212,10 +195,12 @@ if (count($htmlpaths) === 1) {
 })(jQuery);
   </script>
   <!-- Place directly after body tag on every page -->
+
+  <!-- FB App ID -->
   <script>
     window.fbAsyncInit = function() {
       FB.init({
-        appId      : '157682614577597',
+        appId      : '',
         xfbml      : true,
         version    : 'v2.4'
       });
