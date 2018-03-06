@@ -8,10 +8,11 @@
                 <div class="row">
                     <div class="col-md-11 title-div">
                         <!-- <p class="date">February 12 & 13, 2018 <span class="teal">/</span><span class="line-break"></span> San Diego, CA</p> -->
-                        <p class="date">Stay tuned for AOCS 2020</p>
+                        <p class="date">Global Leaders By Trade</p>
 
                         <div class="videoWrapper">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YvS9UQ_E6sg" frameborder="0" allowfullscreen></iframe>
+                            <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/YvS9UQ_E6sg" frameborder="0" allowfullscreen></iframe> -->
+                                <img src="http://via.placeholder.com/859x493"></img>
                         </div>
                     </div>
                 </div>
