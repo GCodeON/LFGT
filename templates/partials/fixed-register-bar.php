@@ -16,7 +16,7 @@
                         <a href="/register" class="p btn btn-lg btn-danger" onClick="registerNowClick()">Register now</a>
                     <?php endif; ?> -->
                     <a href="/stay-connected" class="p btn btn-lg btn-danger" onClick="stayConnected()">Stay Connected</a>
-                    <div class="hashtag"><span class="text-red">#</span>AOCS18</div>
+                    <div class="hashtag"><span class="text-red">#</span>LFGT</div>
                 </div>
             </div>
         </div>
